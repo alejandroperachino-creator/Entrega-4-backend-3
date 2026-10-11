@@ -1,0 +1,2 @@
+{"timestamp":"2026-10-07 07:53:17","level":"info","message":"Conectado a la base de datos MongoDB"}
+{"timestamp":"2026-10-07 07:53:17","level":"info","message":"Servidor iniciado en el puerto 3003, { env: development }"}

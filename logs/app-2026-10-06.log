@@ -1,0 +1,32 @@
+{"timestamp":"2026-10-06 14:04:13","level":"info","message":"Conectado a la base de datos MongoDB"}
+{"timestamp":"2026-10-06 14:04:13","level":"info","message":"Servidor iniciado en el puerto 3003, { env: development }"}
+{"timestamp":"2026-10-06 14:04:27","level":"info","message":"Conectado a la base de datos MongoDB"}
+{"timestamp":"2026-10-06 14:04:38","level":"http","message":"POST /api/users 201","requestId":"afa8590b-86cc-4eed-af61-914146c5a4b0","ms":22,"statusCode":201}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"INVALID_JSON_ERROR - JSON inválido","method":"POST","path":"/api/users","code":"INVALID_JSON_ERROR"}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"RESOURCE_CONFLICT_ERROR - Conflicto de recurso","requestId":"097aa7cb-e087-48c5-90fd-6eb3fc8feeb3","method":"POST","path":"/api/users","code":"RESOURCE_CONFLICT_ERROR"}
+{"timestamp":"2026-10-06 14:05:55","level":"http","message":"POST /api/users 409","requestId":"097aa7cb-e087-48c5-90fd-6eb3fc8feeb3","ms":4,"statusCode":409}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"BAD_REQUEST_ERROR - Solicitud incorrecta","requestId":"c324b14c-d82b-4e92-aec3-09f5cf899850","method":"POST","path":"/api/users","code":"BAD_REQUEST_ERROR"}
+{"timestamp":"2026-10-06 14:05:55","level":"http","message":"POST /api/users 400","requestId":"c324b14c-d82b-4e92-aec3-09f5cf899850","ms":1,"statusCode":400}
+{"timestamp":"2026-10-06 14:05:55","level":"debug","message":"buscando usuario por ID: abc","requestId":"6c22dfe2-9dd6-44de-a86d-66bbf52c0251"}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"INVALID_ID_ERROR - Id inválido","requestId":"6c22dfe2-9dd6-44de-a86d-66bbf52c0251","method":"GET","path":"/api/users/abc","code":"INVALID_ID_ERROR"}
+{"timestamp":"2026-10-06 14:05:55","level":"http","message":"GET /api/users/abc 400","requestId":"6c22dfe2-9dd6-44de-a86d-66bbf52c0251","ms":2,"statusCode":400}
+{"timestamp":"2026-10-06 14:05:55","level":"debug","message":"buscando usuario por ID: 507f1f77bcf86cd799439011","requestId":"d1c188a0-75ac-441f-9e25-88971306e58a"}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"USER_NOT_FOUND_ERROR - Usuario no encontrado","requestId":"d1c188a0-75ac-441f-9e25-88971306e58a","method":"GET","path":"/api/users/507f1f77bcf86cd799439011","code":"USER_NOT_FOUND_ERROR"}
+{"timestamp":"2026-10-06 14:05:55","level":"http","message":"GET /api/users/507f1f77bcf86cd799439011 404","requestId":"d1c188a0-75ac-441f-9e25-88971306e58a","ms":3,"statusCode":404}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"INVALID_ID_ERROR - Id inválido","requestId":"76960307-9284-4abe-86db-e2a5c0b5b5d7","method":"PUT","path":"/api/users/abc","code":"INVALID_ID_ERROR"}
+{"timestamp":"2026-10-06 14:05:55","level":"http","message":"PUT /api/users/abc 400","requestId":"76960307-9284-4abe-86db-e2a5c0b5b5d7","ms":3,"statusCode":400}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"PERMISSION_DENIED_ERROR - No se puede crear un admin desde este endpoint","requestId":"befe21e8-e13e-4690-b879-04c16e4d6a9c","method":"POST","path":"/api/users","code":"PERMISSION_DENIED_ERROR"}
+{"timestamp":"2026-10-06 14:05:55","level":"http","message":"POST /api/users 403","requestId":"befe21e8-e13e-4690-b879-04c16e4d6a9c","ms":2,"statusCode":403}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"INVALID_ID_ERROR - Id inválido","requestId":"0459174f-53d6-4bd7-b574-fcbdfc753529","method":"DELETE","path":"/api/users/abc","code":"INVALID_ID_ERROR"}
+{"timestamp":"2026-10-06 14:05:55","level":"http","message":"DELETE /api/users/abc 400","requestId":"0459174f-53d6-4bd7-b574-fcbdfc753529","ms":2,"statusCode":400}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"PRODUCT_NOT_FOUND_ERROR - Producto no encontrado","requestId":"77625f2e-3cef-41ec-bc8c-06605c890a0e","method":"GET","path":"/api/products/507f1f77bcf86cd799439011","code":"PRODUCT_NOT_FOUND_ERROR"}
+{"timestamp":"2026-10-06 14:05:55","level":"http","message":"GET /api/products/507f1f77bcf86cd799439011 404","requestId":"77625f2e-3cef-41ec-bc8c-06605c890a0e","ms":2,"statusCode":404}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"logger test error","requestId":"d78002d8-3dac-4543-9d3c-7832dae2322c","method":"GET","path":"/api/logger/error"}
+{"timestamp":"2026-10-06 14:05:55","level":"warning","message":"Error - logger test error","requestId":"d78002d8-3dac-4543-9d3c-7832dae2322c","method":"GET","path":"/api/logger/error","code":"TEST_LOGGER_ERROR"}
+{"timestamp":"2026-10-06 14:05:55","level":"http","message":"GET /api/logger/error 400","requestId":"d78002d8-3dac-4543-9d3c-7832dae2322c","ms":1,"statusCode":400}
+{"timestamp":"2026-10-06 14:53:40","level":"info","message":"Conectado a la base de datos MongoDB"}
+{"timestamp":"2026-10-06 14:53:40","level":"info","message":"Servidor iniciado en el puerto 3003, { env: development }"}
+{"timestamp":"2026-10-06 20:05:37","level":"info","message":"Conectado a la base de datos MongoDB"}
+{"timestamp":"2026-10-06 20:05:37","level":"info","message":"Servidor iniciado en el puerto 3003, { env: development }"}
+{"timestamp":"2026-10-06 21:17:20","level":"info","message":"Conectado a la base de datos MongoDB"}
+{"timestamp":"2026-10-06 21:17:20","level":"info","message":"Servidor iniciado en el puerto 3003, { env: development }"}
